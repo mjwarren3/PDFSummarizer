@@ -1,5 +1,6 @@
 import os
-os.environ['OPENAI_API_KEY'] = "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"
+import config
+os.environ['OPENAI_API_KEY'] = config.API_KEY
 
 import gradio as gr
 from langchain import OpenAI, PromptTemplate
@@ -34,8 +35,7 @@ def main():
         fn=summarize_pdf,
         inputs=[input_pdf_path, input_custom_prompt],
         outputs=[output_summary, output_custom_summary],
-        title="PDF Summarizer",
-        description="Enter the path to a PDF file and get its summary!",
+        title="AI PDF Summarizer",
     )
 
     iface.launch()
