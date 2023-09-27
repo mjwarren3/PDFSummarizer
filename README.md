@@ -2,7 +2,7 @@
 ## Description
 AI-generated summaries of PDF files of any size, utilizing Langchain and Gradio
 
-![Screen Recording - Sep 27, 2023](https://github.com/mjwarren3/PDFSummarizer/assets/37048138/d1228c8b-89f6-486a-b0f4-fa375fc781a6)
+![Screen Recording - Sep 27, 2023](https://github.com/mjwarren3/ai-pdf-summarizer/assets/37048138/9ba105e7-4477-4760-a912-c302484a459d)
 
 ## Steps To Deploying Locally
 
